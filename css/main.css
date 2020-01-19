@@ -1,6 +1,7 @@
 body {
 
   font-family: 'Source Sans Pro', sans-serif;
+  color: #555;
 }
 
 header {
@@ -11,10 +12,12 @@ header {
 h2, h3, h4, h5, h6 {
 
   font-family: 'Roboto', sans-serif;
+  color: #222;
 }
 
 h1 {
 
   font-family: 'Arizonia', cursive;
   font-size: 2.5rem;
+  color: #000000;
 }
