@@ -23,9 +23,11 @@ header {
 
   min-height: 20vh;
 
-  background-image: url("../img/header.jpg");
+  /* background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #d32d2f;
+
 }
 
 #header h1 {
