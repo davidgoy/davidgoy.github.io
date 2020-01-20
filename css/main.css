@@ -21,13 +21,9 @@ header {
   position: relative;
   left: calc(-1 * (100vw - 100%) / 2);
 
-  min-height: 20vh;
-
-  /* background-image: url("../img/header.jpg");
+  background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
-  background-size: cover; */
-  background-color: #d32d2f;
-
+  background-size: cover;
 }
 
 #header h1 {
