@@ -22,8 +22,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #header {
 
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
 }
 
 #header h1 {
