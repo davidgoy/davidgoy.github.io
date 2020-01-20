@@ -1,10 +1,9 @@
-# =====================================
-# IGNORE THE FOLLOWING OS RELATED FILES 
-# =====================================
-
 # Ignore macOS generated hidden file
 .DS_Store
 
 # Ignore Windows generated hidden files
 thumbs.db
 desktop.ini
+
+# Ignore GIMP files
+*.xcf

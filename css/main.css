@@ -16,8 +16,15 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
 
-  padding-top: 25px;
-  padding-bottom: 50px;
+  /* Take up the entire width of the viewport (thus breaking out of Bootstrap's constraints) */
+  width: 100vw;
+  position: relative;
+  left: calc(-1 * (100vw - 100%) / 2);
+
+  min-height: 20vh;
+  
+  background-image: url("../img/header.png");
+  background-repeat: no-repeat;
 }
 
 #header h1 {
