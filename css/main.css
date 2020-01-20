@@ -2,6 +2,9 @@ body {
 
   font-family: 'Source Sans Pro', sans-serif;
   color: #555;
+
+  background-image: url("img/grid.png");
+  background-repeat: repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,13 +58,13 @@ footer {
 
   min-height: 50px;
   margin-top: 25px;
+  padding: 25px;
   background-color: #d32d2f;
 
   color: #fff;
-  font-size: smaller;
 }
 
-footer a:hover, footer a:active {
+footer a, footer a:hover, footer a:visited {
 
   color: #fff;
 }
