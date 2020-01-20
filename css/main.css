@@ -48,7 +48,7 @@ main h2 {
 
 main a, main a:hover, main a:visited {
 
-  color: #d32d2f;
+  color: #c71428;
   text-decoration: underline;
 }
 
@@ -72,8 +72,8 @@ footer {
 
   min-height: 50px;
   margin-top: 25px;
-  padding: 15px;
-  background-color: #d32d2f;
+  padding: 10px;
+  background-color: #c71428;
 
   color: #fff;
 }
