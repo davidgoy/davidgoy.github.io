@@ -21,11 +21,11 @@ header {
   position: relative;
   left: calc(-1 * (100vw - 100%) / 2);
 
-  min-height: 500px;
+  min-height: 1500px;
 
   background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 #header h1 {
