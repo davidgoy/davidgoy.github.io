@@ -3,7 +3,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #555;
 
-  background-image: url("img/grid.png");
+  background-image: url("../img/grid.png");
   background-repeat: repeat;
 }
 
