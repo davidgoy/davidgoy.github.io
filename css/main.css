@@ -4,20 +4,20 @@ body {
   color: #555;
 }
 
-header {
-
-  padding-top: 25px;
-  padding-bottom: 50px;
-}
-
-main {
-
-}
-
 h1, h2, h3, h4, h5, h6 {
 
   font-family: 'Roboto', sans-serif;
   color: #222;
+}
+
+/* -------------------------------------------------------------------------- */
+/* HEADER */
+/* -------------------------------------------------------------------------- */
+
+header {
+
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 #header h1 {
@@ -32,4 +32,36 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   color: #222;
   font-size: 1.0rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* MAIN */
+/* -------------------------------------------------------------------------- */
+
+main {
+
+}
+
+/* -------------------------------------------------------------------------- */
+/* FOOTER */
+/* -------------------------------------------------------------------------- */
+
+footer {
+
+  /* Take up the entire width of the viewport (thus breaking out of Bootstrap's constraints) */
+  width: 100vw;
+  position: relative;
+  left: calc(-1 * (100vw - 100%) / 2);
+
+  min-height: 50px;
+  margin-top: 25px;
+  background-color: #d32d2f;
+
+  color: #fff;
+  font-size: smaller;
+}
+
+footer a:hover, footer a:active {
+
+  color: #fff;
 }
