@@ -7,3 +7,8 @@ desktop.ini
 
 # Ignore GIMP files
 *.xcf
+
+# Ignore documents
+*.odt
+*.docx
+*.doc
