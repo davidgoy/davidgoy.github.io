@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', function() {
     email.addEventListener('click', function(event) {
 
       Swal.fire({
-        title: 'david@davidgoy.dev',
+        title: 'developer@davidgoy.com',
         text: 'Here\'s my email address. Please copy it.',
         confirmButtonColor: '#c71428',
         confirmButtonText: 'DONE'
