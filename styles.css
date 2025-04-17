@@ -1,0 +1,181 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/* Layout */
+.resume-container {
+    width: 100%;
+    max-width: 210mm; /* A4 width */
+    min-height: 297mm; /* A4 height */
+    margin: 0 auto;
+    padding: 15mm;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+    margin: 5px 0 15px;
+}
+
+/* Section Styling */
+.section-header {
+    margin: 20px 0 10px;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.section-divider {
+    height: 2px;
+    background: #000;
+    margin: 5px 0 15px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+/* Left Column */
+.left-column {
+    padding-right: 30px;
+    border-right: 1px solid #ddd;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.degree {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 5px;
+}
+
+.date {
+    font-style: italic;
+    color: #555;
+    font-size: 13px;
+}
+
+.institution {
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0 0 5px;
+}
+
+.description {
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.achievements {
+    padding-left: 20px;
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.achievements li {
+    margin-bottom: 3px;
+}
+
+/* Right Column */
+.right-column {
+    padding-left: 30px;
+}
+
+.skill-category {
+    margin-bottom: 15px;
+}
+
+.skill-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 5px;
+}
+
+.skill-items {
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+
+.work-item {
+    margin-bottom: 15px;
+}
+
+.work-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.position {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 3px;
+}
+
+.company {
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0 0 10px;
+}
+
+.award-item {
+    margin-bottom: 15px;
+}
+
+.award-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 5px;
+}
+
+.award-description {
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 10mm;
+        box-shadow: none;
+    }
+    
+    .left-column {
+        padding-right: 0;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .right-column {
+        padding-left: 0;
+    }
+}
